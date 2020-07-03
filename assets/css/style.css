@@ -1,0 +1,4919 @@
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+/* cyrillic */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Kwp5MKg.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Nwp5MKg.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Bwp5MKg.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94Yt3CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94YtwCwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94Yt8CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94Yt9CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLV154t3CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLV154twCwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLV154t8CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLV154t9CwZ-Pw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLV154tzCwY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzQdL_nz.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzwdL_nz.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzMdL_nz.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz4dL_nz.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc3CsTKlA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc-CsTKlA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc2CsTKlA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc5CsTKlA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc0CsTKlA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc6CsQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+.elementor-widget-heading .elementor-heading-title {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-text-editor {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: #6ec1e4;
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: #6ec1e4;
+    border-color: #6ec1e4;
+}
+
+.elementor-widget-button .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-divider {
+    --divider-border-color: #54595f;
+}
+
+.elementor-widget-divider .elementor-divider__text {
+    color: #54595f;
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+    background-color: #54595f;
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+    color: #54595f;
+    border-color: #54595f;
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+    fill: #54595f;
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-title {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-description {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {
+    background-color: #6ec1e4;
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon {
+    color: #6ec1e4;
+    border-color: #6ec1e4;
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon svg {
+    fill: #6ec1e4;
+}
+
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+    background-color: #6ec1e4;
+}
+
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default .elementor-icon {
+    fill: #6ec1e4;
+    color: #6ec1e4;
+    border-color: #6ec1e4;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-star-rating .elementor-star-rating__title {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-image-carousel .elementor-image-carousel-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+    border-color: #7a7a7a;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+    color: #6ec1e4;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+    fill: #6ec1e4;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+    color: #54595f;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-counter .elementor-counter-number-wrapper {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-counter .elementor-counter-title {
+    color: #54595f;
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: #6ec1e4;
+}
+
+.elementor-widget-progress .elementor-title {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+    color: #54595f;
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-widget-tabs .elementor-tab-title a {
+    color: #6ec1e4;
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active a {
+    color: #61ce70;
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-accordion .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-accordion-title {
+    color: #6ec1e4;
+}
+
+.elementor-widget-accordion .elementor-active .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-active .elementor-accordion-title {
+    color: #61ce70;
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-tab-content {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-toggle .elementor-toggle-title,
+.elementor-widget-toggle .elementor-toggle-icon {
+    color: #6ec1e4;
+}
+
+.elementor-widget-toggle .elementor-tab-title.elementor-active a,
+.elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon {
+    color: #61ce70;
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-toggle-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-alert .elementor-alert-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-alert .elementor-alert-description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-button_lp a.elementor-button,
+.elementor-widget-button_lp .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_whatsapp a.elementor-button,
+.elementor-widget-button_whatsapp .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-image_lp .widget-image-caption {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-button_video a.elementor-button,
+.elementor-widget-button_video .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-countdown_simple .elementor-countdown-simple {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-countdown_evergreen .elementor-countdown-simple {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-optin .elementor-lp-form-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-optin .elementor-lp-form-wrapper input[type="text"],
+.elementor-widget-optin .elementor-lp-form-wrapper input[type="email"],
+.elementor-widget-optin .elementor-lp-form-wrapper textarea {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-optin .elementor-lp-form-wrapper input[type="submit"],
+.elementor-widget-optin .elementor-lp-form-wrapper button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-popup-block-white .elementor-lp-form-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-popup-block-white .elementor-lp-form-wrapper input[type="text"],
+.elementor-popup-block-white .elementor-lp-form-wrapper input[type="email"],
+.elementor-popup-block-white .elementor-lp-form-wrapper textarea {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-popup-block-white .elementor-lp-form-wrapper input[type="submit"],
+.elementor-popup-block-white .elementor-lp-form-wrapper button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-optin_2steps a.elementor-button,
+.elementor-widget-optin_2steps .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-lp_slider_image .lp-slider-wrapper .lp-slide-image-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-lp_slider_content .lp-slider-heading {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-lp_slider_content .lp-slider-description {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="text"],
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="email"],
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper textarea {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="submit"],
+.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-lp_whatsapp_popup a.elementor-button,
+.elementor-widget-lp_whatsapp_popup .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="text"],
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="email"],
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper textarea {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="submit"],
+.elementor-widget-lp_contact_form .elementor-lp-form-wrapper button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="text"],
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="email"],
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper textarea {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="submit"],
+.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-lp_navigation_menu .lp-navmenu-items li a,
+.elementor-widget-lp_navigation_menu .lp-navmenu-items li a:visited {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-lp_posts_grid .lp-posts-grid-wrapper li h4 a {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-lp_posts_grid .lp-posts-grid-wrapper li p {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-button_sms .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_tel .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_line .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_wagroup .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_messenger .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_telegram .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-button_instagram .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-comment-box a.elementor-button,
+.elementor-widget-comment-box .elementor-button {
+    background-color: #61ce70;
+}
+
+.elementor-widget-BgSound.elementor-view-stacked .elementor-icon {
+    background-color: #6ec1e4;
+}
+
+.elementor-widget-BgSound.elementor-view-framed .elementor-icon,
+.elementor-widget-BgSound.elementor-view-default .elementor-icon {
+    color: #6ec1e4;
+    border-color: #6ec1e4;
+}
+
+.elementor-widget-BgSound.elementor-view-framed .elementor-icon,
+.elementor-widget-BgSound.elementor-view-default .elementor-icon svg {
+    fill: #6ec1e4;
+}
+
+.elementor-widget-CopyButton a.elementor-button,
+.elementor-widget-CopyButton .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+}
+
+.elementor-widget-ucaddon_blox_alternating_classic_pointer_timeline .uc_style_blox_alternating_classic_pointer_timeline_elementor_uc_items_attribute_title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_blox_alternating_classic_pointer_timeline .uc_style_blox_alternating_classic_pointer_timeline_elementor_uc_items_attribute_description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_material_pricing_table .uc_style_material_pricing_table_elementor_plan_name {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_material_pricing_table .uc_style_material_pricing_table_elementor_plan_type {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_material_pricing_table .uc_style_material_pricing_table_elementor_price {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_material_pricing_table .uc_style_material_pricing_table_elementor_button_text {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-ucaddon_material_pricing_table .uc_style_material_pricing_table_elementor_uc_items_attribute_title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-886 .elementor-element.elementor-element-44949b0:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-44949b0>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-44949b0>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-44949b0 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-03eb243 .elementor-spacer-inner {
+    height: 60px;
+}
+
+.elementor-886 .elementor-element.elementor-element-fed8eff {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-fed8eff .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.elementor-886 .elementor-element.elementor-element-1c7e7a4 a.elementor-button,
+.elementor-886 .elementor-element.elementor-element-1c7e7a4 .elementor-button {
+    font-size: 24px;
+    background-color: #89B2AA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2% 3% 2% 3%;
+}
+
+.elementor-886 .elementor-element.elementor-element-1c7e7a4>.elementor-widget-container {
+    margin: -3% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-08164f5 .elementor-spacer-inner {
+    height: 80px;
+}
+
+.elementor-886 .elementor-element.elementor-element-39b577f:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-39b577f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-39b577f>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-39b577f {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-c0670e3 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-c0670e3 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-4ef2df6:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-4ef2df6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-4ef2df6>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-4ef2df6 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 2% 0% 2%;
+}
+
+.elementor-886 .elementor-element.elementor-element-aa3dfec:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated>.elementor-background-overlay {
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/de9swirlwd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: 0.2;
+}
+
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #89B2AA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated,
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated>.elementor-background-overlay,
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-8cfee17>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-5f87cf3>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-64cbaec>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-1cc2db2>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-7654dcd>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6ea9ab7 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6ea9ab7 .elementor-heading-title {
+    color: #89B2AA;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 44px;
+}
+
+.elementor-886 .elementor-element.elementor-element-de981d5 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-de981d5 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.elementor-886 .elementor-element.elementor-element-ef5d3d9 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-ef5d3d9 .elementor-heading-title {
+    color: #89B2AA;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 88px;
+}
+
+.elementor-886 .elementor-element.elementor-element-8ff50d4 .elementor-countdown-simple {
+    color: #000000;
+}
+
+.elementor-886 .elementor-element.elementor-element-8ff50d4 .elementor-countdown-simple .count-num {
+    color: #FFFFFF;
+    background-color: #89B2AA;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-644c51e {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-644c51e .elementor-heading-title {
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.elementor-886 .elementor-element.elementor-element-3b0f061 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-3b0f061 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.elementor-886 .elementor-element.elementor-element-0f0f7b1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-35d0173>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-04e2f3b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-264d55c>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff83a39:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-ff83a39>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff83a39>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff83a39 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-564059b {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-564059b .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-380b519:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-380b519>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-380b519>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-380b519 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-8c0e369.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-16d3eb4 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-16d3eb4 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-98db624:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-98db624>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-98db624>.elementor-background-overlay {
+    opacity: 0.15;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-98db624 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 2% 0% 2%;
+}
+
+.elementor-886 .elementor-element.elementor-element-aec9f55:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated>.elementor-background-overlay {
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/de9swirlwd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: 0.2;
+}
+
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #89B2AA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated,
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated>.elementor-background-overlay,
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-0cddc5b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-d9784cc>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-aeca6af>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-af4bc7b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-a4b02d4>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-62e7343 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-62e7343 .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 24px;
+}
+
+.elementor-886 .elementor-element.elementor-element-4bd7de8 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-4bd7de8 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-4bd7de8>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-c13ff97 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-c13ff97 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-c13ff97>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-6af2f73 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6af2f73 .elementor-image img {
+    width: 100%;
+    max-width: 20%;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.elementor-886 .elementor-element.elementor-element-d66dc73 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-d66dc73 .elementor-heading-title {
+    color: #89B2AA;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 44px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6bff81c {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6bff81c .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6bff81c>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-f4e1fc5 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-f4e1fc5 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.elementor-886 .elementor-element.elementor-element-f4e1fc5>.elementor-widget-container {
+    padding: 0% 15% 0% 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-bc290ea {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-bc290ea .elementor-image img {
+    width: 100%;
+    max-width: 20%;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.elementor-886 .elementor-element.elementor-element-883cad5 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-883cad5 .elementor-heading-title {
+    color: #89B2AA;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 44px;
+}
+
+.elementor-886 .elementor-element.elementor-element-9a7fcbf {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-9a7fcbf .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-9a7fcbf>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-e50dc83 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-02d52e0>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-2cf78d9>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-3c283de>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-5444560:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-5444560>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-5444560>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-5444560 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-467ea15 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-467ea15 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-ba9fd0a:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-ba9fd0a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-ba9fd0a>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-ba9fd0a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d89f39.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-a12775d {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-a12775d .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-4a4fa1e:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-4a4fa1e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-4a4fa1e>.elementor-background-overlay {
+    opacity: 0.15;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-4a4fa1e {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 2% 0% 2%;
+}
+
+.elementor-886 .elementor-element.elementor-element-1392d8f:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated>.elementor-background-overlay {
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/de9swirlwd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: 0.2;
+}
+
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #89B2AA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated,
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated>.elementor-background-overlay,
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-c7639ac>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-840e921>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-13fd96a>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-50266f8>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-ad7c7fd>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6120699 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6120699 .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+}
+
+.elementor-886 .elementor-element.elementor-element-bcd54d5 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-bcd54d5 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-bcd54d5>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-1921c8f {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-1921c8f .elementor-image img {
+    width: 100%;
+    max-width: 10%;
+    border-radius: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-5d0b480 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-5d0b480 .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 28px;
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(15px/2);
+    margin-left: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-15px/2);
+    margin-left: calc(-15px/2);
+}
+
+body.rtl .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-15px/2);
+}
+
+body:not(.rtl) .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-icon i {
+    color: #89B2AA;
+    font-size: 24px;
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-icon svg {
+    fill: #89B2AA;
+    width: 24px;
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-icon {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-text {
+    color: #000000;
+    padding-left: 10px;
+}
+
+.elementor-886 .elementor-element.elementor-element-77803dd>.elementor-widget-container {
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5% 5% 5%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #89B2AA;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.elementor-886 .elementor-element.elementor-element-6ab2c74 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6ab2c74 .elementor-image img {
+    width: 100%;
+    max-width: 10%;
+    border-radius: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-9851a83 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-9851a83 .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 28px;
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(15px/2);
+    margin-left: calc(15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-15px/2);
+    margin-left: calc(-15px/2);
+}
+
+body.rtl .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-15px/2);
+}
+
+body:not(.rtl) .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-15px/2);
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-icon i {
+    color: #89B2AA;
+    font-size: 24px;
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-icon svg {
+    fill: #89B2AA;
+    width: 24px;
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-icon {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-text {
+    color: #000000;
+    padding-left: 10px;
+}
+
+.elementor-886 .elementor-element.elementor-element-2b46d7f>.elementor-widget-container {
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5% 5% 5%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #89B2AA;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.elementor-886 .elementor-element.elementor-element-7f130fb .elementor-countdown-simple {
+    color: #000000;
+}
+
+.elementor-886 .elementor-element.elementor-element-7f130fb .elementor-countdown-simple .count-num {
+    color: #FFFFFF;
+    background-color: #89B2AA;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-af8a948 a.elementor-button,
+.elementor-886 .elementor-element.elementor-element-af8a948 .elementor-button {
+    font-size: 18px;
+    background-color: #89B2AA;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2% 4% 2% 4%;
+}
+
+.elementor-886 .elementor-element.elementor-element-6079498 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-75baaf6>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-ec8e445>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-0d7872a>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-d784111:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-d784111>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-d784111>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-d784111 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-d14af99 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-d14af99 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-76d6d23:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-76d6d23>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-76d6d23>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-76d6d23 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-4dd4bf4.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-48b7e4e {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-48b7e4e .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-723e316:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-723e316>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-723e316>.elementor-background-overlay {
+    opacity: 0.15;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-723e316 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 2% 0% 2%;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d1f9f3:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated>.elementor-background-overlay {
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/de9swirlwd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: 0.2;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #89B2AA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated,
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated>.elementor-background-overlay,
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-7f5cbcc>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-7f8a2e0>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-f10077e>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-70c841f>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-12c73d2>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-9b2d70a {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-9b2d70a .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+}
+
+.elementor-886 .elementor-element.elementor-element-f852fd2 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-f852fd2 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-f852fd2>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-fcd1ddc .gallery-item .gallery-caption {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6b8edb9 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-231b0d7>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-bef0625>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-d06b27b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-350a2b3:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-350a2b3>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-350a2b3>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-350a2b3 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-6bf5595 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-6bf5595 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-e4d3975:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-e4d3975>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-e4d3975>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-e4d3975 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-bf1dd2b.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-b9b07bc {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-b9b07bc .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-fbc28e2:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-fbc28e2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-fbc28e2>.elementor-background-overlay {
+    background-color: #000000;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-fbc28e2 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-464fe09:hover>.elementor-element-populated {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-34f7720 .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-34f7720 .widget-image-caption {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.elementor-886 .elementor-element.elementor-element-0e6eab6:hover>.elementor-element-populated {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-18b49f3 .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-18b49f3 .widget-image-caption {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.elementor-886 .elementor-element.elementor-element-bec701e:hover>.elementor-element-populated {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-f4af912 .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-f4af912 .widget-image-caption {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.elementor-886 .elementor-element.elementor-element-7e055b9:hover>.elementor-element-populated {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-77ad588 .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-77ad588 .widget-image-caption {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.elementor-886 .elementor-element.elementor-element-0a3c159:hover>.elementor-element-populated {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-401b0d1 .elementor-image img {
+    width: 100%;
+    max-width: 15%;
+}
+
+.elementor-886 .elementor-element.elementor-element-401b0d1 .widget-image-caption {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff4d8c8:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-ff4d8c8>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff4d8c8>.elementor-background-overlay {
+    opacity: 0.15;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-ff4d8c8 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 2% 0% 2%;
+}
+
+.elementor-886 .elementor-element.elementor-element-6a8b61d:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/bgatexture.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated>.elementor-background-overlay {
+    background-image: url("https://www.albassaminvitation.com/wp-content/uploads/2020/03/de9swirlwd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: 0.2;
+}
+
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #89B2AA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 0% 0% 0%;
+}
+
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated,
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated>.elementor-background-overlay,
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-1cdfe99>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-0088f1e>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-fba5f5c>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-87cc8ef>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-19a748c>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-87bcc03 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-87bcc03 .elementor-heading-title {
+    color: #000000;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+}
+
+.elementor-886 .elementor-element.elementor-element-175d98f {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-175d98f .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-175d98f>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-4387b3a {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-4387b3a .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-4387b3a>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-47c0722 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-47c0722 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-47c0722>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-ad19315 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-ad19315 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-ad19315>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-f0ce7a4 .uc_style_blox_alternating_classic_pointer_timeline_elementor_uc_items_attribute_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.elementor-886 .elementor-element.elementor-element-055f391 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-055f391 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-055f391>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-0007c7d a.elementor-button,
+.elementor-886 .elementor-element.elementor-element-0007c7d .elementor-button {
+    font-weight: normal;
+    background-color: #89B2AA;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px 0px 12px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-0007c7d>.elementor-widget-container {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 1% 0% 1%;
+}
+
+.elementor-886 .elementor-element.elementor-element-a55b4a3 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-a55b4a3 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-a55b4a3>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-69d5c04>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-c01a9e6 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-c01a9e6 .elementor-heading-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-886 .elementor-element.elementor-element-c01a9e6>.elementor-widget-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-669f934 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-669f934 .elementor-heading-title {
+    color: #89B2AA;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 28px;
+}
+
+.elementor-886 .elementor-element.elementor-element-669f934>.elementor-widget-container {
+    margin: -10px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-e41ff72 a.elementor-button,
+.elementor-886 .elementor-element.elementor-element-e41ff72 .elementor-button {
+    background-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-e41ff72>.elementor-widget-container {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 5% 0% 5%;
+}
+
+.elementor-886 .elementor-element.elementor-element-7272740 .elementor-spacer-inner {
+    height: 50px;
+}
+
+.elementor-886 .elementor-element.elementor-element-fae66a9 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-4e26bf5>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-72de7d3>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-6ed1ed7>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-69be34f:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-69be34f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-69be34f>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-69be34f {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-3e2e6b3 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-3e2e6b3 .elementor-image img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.elementor-886 .elementor-element.elementor-element-713c6a34:not(.elementor-motion-effects-element-type-background),
+.elementor-886 .elementor-element.elementor-element-713c6a34>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F5F1E8;
+}
+
+.elementor-886 .elementor-element.elementor-element-713c6a34 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 40px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-713c6a34>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-886 .elementor-element.elementor-element-60d70263 {
+    text-align: center;
+}
+
+.elementor-886 .elementor-element.elementor-element-60d70263 .elementor-heading-title {
+    color: #000000;
+    font-family: "Arial", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.elementor-886 .elementor-element.elementor-element-60d70263>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159 .elementor-icon-wrapper {
+    text-align: left;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-stacked .elementor-icon {
+    background-color: #89B2AA;
+    color: #FFFFFF;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-framed .elementor-icon,
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-default .elementor-icon {
+    color: #89B2AA;
+    border-color: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-framed .elementor-icon,
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-default .elementor-icon svg {
+    fill: #89B2AA;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-framed .elementor-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159.elementor-view-stacked .elementor-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159 .elementor-icon {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159 .elementor-icon i,
+.elementor-886 .elementor-element.elementor-element-f7fa159 .elementor-icon svg {
+    transform: rotate(0deg);
+}
+
+body:not(.rtl) .elementor-886 .elementor-element.elementor-element-f7fa159 {
+    left: 97%;
+}
+
+body.rtl .elementor-886 .elementor-element.elementor-element-f7fa159 {
+    right: 97%;
+}
+
+.elementor-886 .elementor-element.elementor-element-f7fa159 {
+    top: 40%;
+}
+
+@media(max-width:1024px) {
+    .elementor-886 .elementor-element.elementor-element-fed8eff .elementor-image img {
+        width: 20%;
+        max-width: 100%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1c7e7a4 a.elementor-button,
+    .elementor-886 .elementor-element.elementor-element-1c7e7a4 .elementor-button {
+        padding: 3% 4% 3% 4%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1921c8f .elementor-image img {
+        width: 15%;
+        max-width: 100%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6ab2c74 .elementor-image img {
+        width: 15%;
+        max-width: 100%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-fbc28e2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-886 .elementor-element.elementor-element-fed8eff .elementor-image img {
+        width: 100%;
+        max-width: 35%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1c7e7a4 a.elementor-button,
+    .elementor-886 .elementor-element.elementor-element-1c7e7a4 .elementor-button {
+        font-size: 18px;
+        padding: 5% 7% 5% 7%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1c7e7a4>.elementor-widget-container {
+        margin: -10% 0% 0% 0%;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-39b577f {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-a810d30>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-c0670e3 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4ef2df6 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aa3dfec:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+    .elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: 900px auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated>.elementor-background-overlay {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aa3dfec>.elementor-element-populated {
+        border-width: 2px 2px 2px 2px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bce71f2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8cfee17 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8cfee17>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-64cbaec {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-64cbaec>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1cc2db2 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1cc2db2>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6ea9ab7 .elementor-heading-title {
+        font-size: 32px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-de981d5 .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ef5d3d9 .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8ff50d4 .elementor-countdown-simple {
+        font-size: 14px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-644c51e .elementor-heading-title {
+        font-size: 18px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-3b0f061 .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-35d0173 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-35d0173>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-04e2f3b {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-04e2f3b>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-264d55c {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-264d55c>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ff83a39 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-d7f65d4>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-564059b .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-380b519 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8c0e369>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-16d3eb4 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-98db624 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aec9f55:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+    .elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: 900px auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated>.elementor-background-overlay {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aec9f55>.elementor-element-populated {
+        border-width: 2px 2px 2px 2px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-b6d77a9 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0cddc5b {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0cddc5b>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aeca6af {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-aeca6af>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-af4bc7b {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-af4bc7b>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-62e7343 .elementor-heading-title {
+        font-size: 18px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4bd7de8 .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-c13ff97 .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6af2f73 .elementor-image img {
+        width: 100%;
+        max-width: 35%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-d66dc73 .elementor-heading-title {
+        font-size: 32px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6bff81c .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f4e1fc5 .elementor-heading-title {
+        font-size: 14px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f4e1fc5>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bc290ea .elementor-image img {
+        width: 100%;
+        max-width: 35%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-883cad5 .elementor-heading-title {
+        font-size: 32px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-9a7fcbf .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-02d52e0 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-02d52e0>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2cf78d9 {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2cf78d9>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-3c283de {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-3c283de>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bb7d000>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-467ea15 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8d89f39>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-a12775d .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4a4fa1e {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1392d8f:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+    .elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: 900px auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated>.elementor-background-overlay {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1392d8f>.elementor-element-populated {
+        border-width: 2px 2px 2px 2px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4ee0f00 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-c7639ac {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-c7639ac>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-13fd96a {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-13fd96a>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-50266f8 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-50266f8>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6120699 .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bcd54d5 .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1921c8f .elementor-image img {
+        width: 100%;
+        max-width: 15%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-5d0b480 .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+        padding-bottom: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+        margin-top: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+        margin-right: calc(10px/2);
+        margin-left: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items {
+        margin-right: calc(-10px/2);
+        margin-left: calc(-10px/2);
+    }
+
+    body.rtl .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+        left: calc(-10px/2);
+    }
+
+    body:not(.rtl) .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+        right: calc(-10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd .elementor-icon-list-item {
+        font-size: 12px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77803dd>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 5% 0% 10% 5%;
+        border-width: 0px 0px 0px 0px;
+        border-radius: 14px 14px 14px 14px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6ab2c74 .elementor-image img {
+        width: 100%;
+        max-width: 15%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-9851a83 .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+        padding-bottom: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+        margin-top: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+        margin-right: calc(10px/2);
+        margin-left: calc(10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items {
+        margin-right: calc(-10px/2);
+        margin-left: calc(-10px/2);
+    }
+
+    body.rtl .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+        left: calc(-10px/2);
+    }
+
+    body:not(.rtl) .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+        right: calc(-10px/2);
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f .elementor-icon-list-item {
+        font-size: 12px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-2b46d7f>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 5% 0% 10% 5%;
+        border-width: 0px 0px 0px 0px;
+        border-radius: 14px 14px 14px 14px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-af8a948 a.elementor-button,
+    .elementor-886 .elementor-element.elementor-element-af8a948 .elementor-button {
+        padding: 5% 7% 5% 7%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-af8a948>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-75baaf6 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-75baaf6>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ec8e445 {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ec8e445>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0d7872a {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0d7872a>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-cdc26e0>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-d14af99 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4dd4bf4>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-48b7e4e .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-723e316 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8d1f9f3:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+    .elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: 900px auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated>.elementor-background-overlay {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-8d1f9f3>.elementor-element-populated {
+        border-width: 2px 2px 2px 2px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-06aabf6 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-7f5cbcc {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-7f5cbcc>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f10077e {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f10077e>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-70c841f {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-70c841f>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-9b2d70a .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f852fd2 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-231b0d7 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-231b0d7>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bef0625 {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bef0625>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-d06b27b {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-d06b27b>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f70a257>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6bf5595 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bf1dd2b>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-b9b07bc .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-fbc28e2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0% 0% 0% 0%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-464fe09 {
+        width: 20%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-464fe09>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-34f7720 .elementor-image img {
+        width: 100%;
+        max-width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-34f7720 .widget-image-caption {
+        font-size: 8px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-34f7720>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0e6eab6 {
+        width: 20%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0e6eab6>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-18b49f3 .elementor-image img {
+        width: 100%;
+        max-width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-18b49f3 .widget-image-caption {
+        font-size: 8px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-18b49f3>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bec701e {
+        width: 20%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-bec701e>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f4af912 .elementor-image img {
+        width: 100%;
+        max-width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f4af912 .widget-image-caption {
+        font-size: 8px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f4af912>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-7e055b9 {
+        width: 20%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-7e055b9>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77ad588 .elementor-image img {
+        width: 100%;
+        max-width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77ad588 .widget-image-caption {
+        font-size: 8px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-77ad588>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0a3c159 {
+        width: 20%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0a3c159>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-401b0d1 .elementor-image img {
+        width: 100%;
+        max-width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-401b0d1 .widget-image-caption {
+        font-size: 8px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-401b0d1>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ff4d8c8 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6a8b61d:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+    .elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: 900px auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated>.elementor-background-overlay {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6a8b61d>.elementor-element-populated {
+        border-width: 2px 2px 2px 2px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ec03ab8 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1cdfe99 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-1cdfe99>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-fba5f5c {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-fba5f5c>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-87cc8ef {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-87cc8ef>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-87bcc03 .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-175d98f .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4387b3a .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-47c0722 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ad19315 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-055f391 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-0007c7d>.elementor-widget-container {
+        margin: 0% 0% 0% 0%;
+        padding: 0% 3% 0% 3%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-a55b4a3 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-c01a9e6 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.3px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-669f934 .elementor-heading-title {
+        font-size: 24px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-e41ff72>.elementor-widget-container {
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4e26bf5 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-4e26bf5>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-72de7d3 {
+        width: 40%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-72de7d3>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6ed1ed7 {
+        width: 30%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-6ed1ed7>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-ce11eeb>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-3e2e6b3 .elementor-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-70bf7a06>.elementor-element-populated {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-60d70263 .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-60d70263>.elementor-widget-container {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f7fa159 .elementor-icon {
+        font-size: 15px;
+    }
+
+    body:not(.rtl) .elementor-886 .elementor-element.elementor-element-f7fa159 {
+        left: 88%;
+    }
+
+    body.rtl .elementor-886 .elementor-element.elementor-element-f7fa159 {
+        right: 88%;
+    }
+
+    .elementor-886 .elementor-element.elementor-element-f7fa159 {
+        top: 40%;
+    }
+}

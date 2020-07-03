@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'gelpen-upright';
+					src: url('/wp-content/uploads/useanyfont/200428122918GelPen-Upright.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/200428122918GelPen-Upright.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gelpen-upright{font-family: 'gelpen-upright' !important;}
+
+		
